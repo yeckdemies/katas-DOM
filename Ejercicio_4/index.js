@@ -28,3 +28,7 @@ for (let i = 0; i < inputs.length; i++) {
     console.log(e.target.value);
   });
 }
+
+//! 1.3
+const input2 = document.querySelector('.value');
+input2.addEventListener('input', (e) => console.log(e.target.value));

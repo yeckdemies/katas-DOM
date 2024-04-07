@@ -38,3 +38,6 @@ for (let i = 0; i < testMeAll.length; i++) {
     console.log(testMeAll[i]);
   }
 }
+
+//! RESOLUCIÓN PROFE
+console.log(document.querySelectorAll("[data-function='testMe']")[2]);
