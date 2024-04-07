@@ -1,7 +1,10 @@
+/***********************************************  EJERCICIO 1  ***********************************************/
 //1.1 Inserta dinamicamente en un html un div vacio con javascript.
+
 /* const newDiv = document.createElement('div');
 document.body.append(newDiv); */
 
+/***********************************************  EJERCICIO 2  ***********************************************/
 //1.2 Inserta dinamicamente en un html un div que contenga una p con javascript.
 /* const newDiv1 = document.createElement('div');
 const p = document.createElement('p');
@@ -9,8 +12,8 @@ const p = document.createElement('p');
 newDiv1.append(p);
 document.body.append(newDiv1); */
 
-/* 1.3 Inserta dinamicamente en un html un div que contenga 6 p utilizando un
-	loop con javascript. */
+/***********************************************  EJERCICIO 3  ***********************************************/
+//1.3 Inserta dinamicamente en un html un div que contenga 6 p utilizando un	loop con javascript.
 
 /* const newDiv2 = document.createElement('div');
 
@@ -20,23 +23,24 @@ for (let i = 0; i < 6; i++) {
 }
 document.body.append(newDiv2); */
 
-/* 1.4 Inserta dinamicamente con javascript en un html una p con el
-	texto 'Soy dinámico!'. */
+/***********************************************  EJERCICIO 4  ***********************************************/
+//1.4 Inserta dinamicamente con javascript en un html una p con el texto 'Soy dinámico!'.
 
 /* const p2 = document.createElement('p');
 p2.innerText = 'Soy dinámico!';
 
 document.body.append(p2); */
 
+/***********************************************  EJERCICIO 5  ***********************************************/
 //1.5 Inserta en el h2 con la clase .fn-insert-here el texto 'Wubba Lubba dub dub'.
 
 /* const h2Wubba = document.querySelector('.fn-insert-here');
 h2Wubba.innerText = 'Wubba Lubba dub dub'; */
 
-/* 1.6 Basandote en el siguiente array crea una lista ul > li con
-los textos del array. */
-/* const apps = ['Facebook', 'Netflix', 'Instagram', 'Snapchat', 'Twitter'];
+/***********************************************  EJERCICIO 6  ***********************************************/
+//1.6 Basandote en el siguiente array crea una lista ul > li con los textos del array.
 
+/* const apps = ['Facebook', 'Netflix', 'Instagram', 'Snapchat', 'Twitter'];
 const ul = document.createElement('ul');
 
 for (let i = 0; i < apps.length; i++) {
@@ -46,13 +50,14 @@ for (let i = 0; i < apps.length; i++) {
 }
 document.body.append(ul); */
 
+/***********************************************  EJERCICIO 7  ***********************************************/
 //1.7 Elimina todos los nodos que tengan la clase .fn-remove-me
-/* const removeElement = document.querySelectorAll('.fn-remove-me');
 
+/* const removeElement = document.querySelectorAll('.fn-remove-me');
 removeElement.forEach((element) => element.remove()); */
 
-/* 1.8 Inserta una p con el texto 'Voy en medio!' entre los dos div.
-	Recuerda que no solo puedes insertar elementos con .appendChild. */
+/***********************************************  EJERCICIO 8  ***********************************************/
+//1.8 Inserta una p con el texto 'Voy en medio!' entre los dos div. Recuerda que no solo puedes insertar elementos con .appendChild.
 
 //Forma 1
 
@@ -77,8 +82,8 @@ div.insertAdjacentElement('afterend', p3);
 
 document.body.append(p); */
 
-/* 1.9 Inserta p con el texto 'Voy dentro!', dentro de todos los div con la clase
-	.fn-insert-here */
+/***********************************************  EJERCICIO 9  ***********************************************/
+//1.9 Inserta p con el texto 'Voy dentro!', dentro de todos los div con la clase .fn-insert-here
 
 /* const classInsert = document.querySelectorAll('.fn-insert-here');
 
